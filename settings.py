@@ -3,12 +3,12 @@ SETTINGS = {
         'TOKEN': ''
     },
     'DB': {
-        'DBNAME': 'SneakerShopDB',
+        'DBNAME': '',
         'USER': '',
-        'PASSWORD': 'root',
+        'PASSWORD': '',
         'HOST': '',
         'PORT': '',
 
     },
-    'MY_ID': '403965374'
+    'MY_ID': ''
 }
