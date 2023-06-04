@@ -7,6 +7,7 @@ from Modules.DB.DB import DB
 
 bot = telebot.TeleBot(SETTINGS['TG']['TOKEN'], parse_mode=None)
 db = DB(SETTINGS['DB'])
+
 @bot.message_handler(commands=['start'])
 def start(message):
 
